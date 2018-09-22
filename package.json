@@ -1,0 +1,25 @@
+{
+  "name": "gitcommands",
+  "version": "1.0.0",
+  "description": "*Still a work in progress*",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DantonGodoy/GitCommands.git"
+  },
+  "author": "Danton de Godoy Petri Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DantonGodoy/GitCommands/issues"
+  },
+  "homepage": "https://github.com/DantonGodoy/GitCommands#readme"
+}

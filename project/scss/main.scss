@@ -1,0 +1,30 @@
+// Imports
+@import "reset";
+@import "diagnostic";
+
+//Fonts
+
+// Variables
+$swans-down: #d1ede1;
+$larchmere: #7bc5ae;
+$observatory: #028c6a;
+$kaitoke: #003e19;
+
+
+// Config
+
+.wrapper {
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.code-line {
+    background-color: red;
+    border: 1px dashed blue;
+}
+// Main Style
+.testing {
+    background-color: $kaitoke;
+}
