@@ -181,6 +181,9 @@ a[href="#"] {
 a[href=""] {
   background: fuchsia; }
 
+body {
+  font-family: 'Raleway', sans-serif; }
+
 .wrapper {
   max-width: 1000px;
   width: 100%;
@@ -191,8 +194,21 @@ a[href=""] {
   background-color: red;
   border: 1px dashed blue; }
 
-p {
-  font-family: 'Raleway', sans-serif; }
+header {
+  width: 100%;
+  height: auto; }
 
-.testing {
-  background-color: #003e19; }
+.header-container {
+  background: #5433FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #A5FECB, #20BDFF, #5433FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #A5FECB, #20BDFF, #5433FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.header-image {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }

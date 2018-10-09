@@ -1,3 +1,3 @@
 'use strict';
 
-alert('Fui carregado!');
+console.log('Fui carregado!');
